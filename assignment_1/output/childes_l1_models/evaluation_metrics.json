@@ -1,0 +1,512 @@
+[
+  {
+    "model_name": "logistic_regression",
+    "accuracy": 0.25,
+    "macro_f1": 0.08810916179337232,
+    "classification_report": {
+      "Arabic": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "Cantonese": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "Farsi": {
+        "precision": 0.2,
+        "recall": 0.030303030303030304,
+        "f1-score": 0.05263157894736842,
+        "support": 33.0
+      },
+      "Japanese": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "Korean": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "Mandarin": {
+        "precision": 0.34782608695652173,
+        "recall": 0.21621621621621623,
+        "f1-score": 0.26666666666666666,
+        "support": 37.0
+      },
+      "Romanian": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "Spanish": {
+        "precision": 0.47368421052631576,
+        "recall": 0.47368421052631576,
+        "f1-score": 0.47368421052631576,
+        "support": 38.0
+      },
+      "Ukrainian": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "accuracy": 0.25,
+      "macro avg": {
+        "precision": 0.1135011441647597,
+        "recall": 0.08002260633839581,
+        "f1-score": 0.08810916179337232,
+        "support": 108.0
+      },
+      "weighted avg": {
+        "precision": 0.3469404186795491,
+        "recall": 0.25,
+        "f1-score": 0.27410656270305395,
+        "support": 108.0
+      }
+    },
+    "classification_report_text": "              precision    recall  f1-score   support\n\n      Arabic       0.00      0.00      0.00         0\n   Cantonese       0.00      0.00      0.00         0\n       Farsi       0.20      0.03      0.05        33\n    Japanese       0.00      0.00      0.00         0\n      Korean       0.00      0.00      0.00         0\n    Mandarin       0.35      0.22      0.27        37\n    Romanian       0.00      0.00      0.00         0\n     Spanish       0.47      0.47      0.47        38\n   Ukrainian       0.00      0.00      0.00         0\n\n    accuracy                           0.25       108\n   macro avg       0.11      0.08      0.09       108\nweighted avg       0.35      0.25      0.27       108\n",
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        6,
+        0,
+        1,
+        3,
+        2,
+        9,
+        1,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        10,
+        4,
+        0,
+        1,
+        8,
+        0,
+        9,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        3,
+        6,
+        0,
+        18,
+        8
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "model_path": "/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/output/childes_l1_models/models/logistic_regression.joblib",
+    "confusion_matrix_figure": "/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/output/childes_l1_models/figures/confusion_matrix_logistic_regression.png"
+  },
+  {
+    "model_name": "linear_svm",
+    "accuracy": 0.16666666666666666,
+    "macro_f1": 0.060157555502506566,
+    "classification_report": {
+      "Arabic": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "Cantonese": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "Farsi": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 33.0
+      },
+      "Japanese": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "Korean": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "Mandarin": {
+        "precision": 0.2727272727272727,
+        "recall": 0.16216216216216217,
+        "f1-score": 0.2033898305084746,
+        "support": 37.0
+      },
+      "Romanian": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "Spanish": {
+        "precision": 0.36363636363636365,
+        "recall": 0.3157894736842105,
+        "f1-score": 0.3380281690140845,
+        "support": 38.0
+      },
+      "Ukrainian": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "accuracy": 0.16666666666666666,
+      "macro avg": {
+        "precision": 0.0707070707070707,
+        "recall": 0.05310573731626363,
+        "f1-score": 0.060157555502506566,
+        "support": 108.0
+      },
+      "weighted avg": {
+        "precision": 0.22138047138047134,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.18861568658656272,
+        "support": 108.0
+      }
+    },
+    "classification_report_text": "              precision    recall  f1-score   support\n\n      Arabic       0.00      0.00      0.00         0\n   Cantonese       0.00      0.00      0.00         0\n       Farsi       0.00      0.00      0.00        33\n    Japanese       0.00      0.00      0.00         0\n      Korean       0.00      0.00      0.00         0\n    Mandarin       0.27      0.16      0.20        37\n    Romanian       0.00      0.00      0.00         0\n     Spanish       0.36      0.32      0.34        38\n   Ukrainian       0.00      0.00      0.00         0\n\n    accuracy                           0.17       108\n   macro avg       0.07      0.05      0.06       108\nweighted avg       0.22      0.17      0.19       108\n",
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        2,
+        1,
+        7,
+        6,
+        10,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        3,
+        1,
+        2,
+        6,
+        1,
+        11,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        1,
+        1,
+        1,
+        9,
+        0,
+        12,
+        10
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "model_path": "/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/output/childes_l1_models/models/linear_svm.joblib",
+    "confusion_matrix_figure": "/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/output/childes_l1_models/figures/confusion_matrix_linear_svm.png"
+  },
+  {
+    "model_name": "random_forest",
+    "accuracy": 0.3611111111111111,
+    "macro_f1": 0.17378768020969856,
+    "classification_report": {
+      "Arabic": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "Farsi": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 33.0
+      },
+      "Mandarin": {
+        "precision": 0.3333333333333333,
+        "recall": 0.6486486486486487,
+        "f1-score": 0.44036697247706424,
+        "support": 37.0
+      },
+      "Spanish": {
+        "precision": 0.46875,
+        "recall": 0.39473684210526316,
+        "f1-score": 0.42857142857142855,
+        "support": 38.0
+      },
+      "Ukrainian": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "accuracy": 0.3611111111111111,
+      "macro avg": {
+        "precision": 0.16041666666666665,
+        "recall": 0.2086770981507824,
+        "f1-score": 0.17378768020969856,
+        "support": 108.0
+      },
+      "weighted avg": {
+        "precision": 0.27912808641975306,
+        "recall": 0.3611111111111111,
+        "f1-score": 0.30166011358671907,
+        "support": 108.0
+      }
+    },
+    "classification_report_text": "              precision    recall  f1-score   support\n\n      Arabic       0.00      0.00      0.00         0\n       Farsi       0.00      0.00      0.00        33\n    Mandarin       0.33      0.65      0.44        37\n     Spanish       0.47      0.39      0.43        38\n   Ukrainian       0.00      0.00      0.00         0\n\n    accuracy                           0.36       108\n   macro avg       0.16      0.21      0.17       108\nweighted avg       0.28      0.36      0.30       108\n",
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        27,
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        24,
+        0,
+        12,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        21,
+        0,
+        15,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "model_path": "/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/output/childes_l1_models/models/random_forest.joblib",
+    "confusion_matrix_figure": "/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/output/childes_l1_models/figures/confusion_matrix_random_forest.png"
+  }
+]

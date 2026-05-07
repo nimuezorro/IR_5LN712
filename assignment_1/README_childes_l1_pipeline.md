@@ -60,3 +60,69 @@ The resulting table has these columns:
 - `child_id`
 - `age`
 - `source_file`
+
+## Training Classifiers
+
+After creating the cleaned CSV, train the L1 classifiers with:
+
+```bash
+python train_childes_l1_models.py
+```
+
+The training script loads:
+
+```text
+output/childes_l1_dataset/childes_l1_dataset.csv
+```
+
+It encodes each `text` sample with:
+
+```text
+sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+```
+
+Then it trains and compares:
+
+- Logistic Regression
+- Linear SVM
+- Random Forest
+
+The train/test split is grouped by `child_id`. This is important because the
+dataset contains multiple text chunks from the same child. If chunks from one
+child appeared in both train and test, the evaluation could be inflated by
+speaker-specific information rather than true generalization to unseen children.
+
+Some L1 labels are represented by only one child. A grouped split cannot place
+the same child in both train and test, so these singleton-child labels are kept
+in the training set and documented in the run metadata.
+
+The script evaluates each classifier with:
+
+- accuracy
+- macro F1
+- confusion matrix
+- classification report
+
+Training outputs are saved by default to:
+
+```text
+output/childes_l1_models
+```
+
+This folder contains:
+
+- `models/*.joblib`: trained classifiers and the label encoder
+- `evaluation_metrics.json`: full metrics, classification reports, and confusion
+  matrix values
+- `model_comparison.csv`: compact accuracy/macro-F1 comparison table
+- `figures/confusion_matrix_*.png`: confusion matrix figure for each classifier
+- `run_metadata.json`: dataset path, embedding model, labels, split details, and
+  methodological notes
+
+To use custom paths:
+
+```bash
+python train_childes_l1_models.py \
+  --csv-path "output/childes_l1_dataset/childes_l1_dataset.csv" \
+  --output-dir "output/childes_l1_models"
+```
