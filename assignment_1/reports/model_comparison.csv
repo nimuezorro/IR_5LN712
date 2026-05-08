@@ -1,0 +1,4 @@
+model_name,accuracy,macro_f1,model_path,confusion_matrix_figure
+logistic_regression,0.42592592592592593,0.1806055392154655,/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/models/logistic_regression.joblib,/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/reports/figures/confusion_matrix_logistic_regression.png
+linear_svm,0.4074074074074074,0.15369802168259256,/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/models/linear_svm.joblib,/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/reports/figures/confusion_matrix_linear_svm.png
+random_forest,0.26851851851851855,0.10542136339237788,/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/models/random_forest.joblib,/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/reports/figures/confusion_matrix_random_forest.png

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.venv/
+venv/
+
+# Large/generated ML artifacts can be regenerated or uploaded separately.
+output/
+
+# Local Hugging Face and model caches.
+.cache/
+hf_cache/

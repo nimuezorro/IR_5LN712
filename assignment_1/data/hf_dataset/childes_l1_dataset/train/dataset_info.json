@@ -1,0 +1,28 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "text": {
+      "dtype": "large_string",
+      "_type": "Value"
+    },
+    "l1": {
+      "dtype": "large_string",
+      "_type": "Value"
+    },
+    "child_id": {
+      "dtype": "large_string",
+      "_type": "Value"
+    },
+    "age": {
+      "dtype": "large_string",
+      "_type": "Value"
+    },
+    "source_file": {
+      "dtype": "large_string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

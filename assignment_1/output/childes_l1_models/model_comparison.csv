@@ -1,4 +1,0 @@
-model_name,accuracy,macro_f1,model_path,confusion_matrix_figure
-random_forest,0.3611111111111111,0.17378768020969856,/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/output/childes_l1_models/models/random_forest.joblib,/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/output/childes_l1_models/figures/confusion_matrix_random_forest.png
-logistic_regression,0.25,0.08810916179337232,/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/output/childes_l1_models/models/logistic_regression.joblib,/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/output/childes_l1_models/figures/confusion_matrix_logistic_regression.png
-linear_svm,0.16666666666666666,0.060157555502506566,/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/output/childes_l1_models/models/linear_svm.joblib,/Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1/output/childes_l1_models/figures/confusion_matrix_linear_svm.png
