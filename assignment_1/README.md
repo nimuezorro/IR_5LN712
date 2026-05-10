@@ -1,19 +1,13 @@
----
-title: Bilingual Children Speech L1 Classifier
-colorFrom: blue
-colorTo: green
-sdk: gradio
-sdk_version: 4.44.0
-python_version: 3.12
-app_file: app/app.py
-pinned: false
----
-
 # CHILDES L1 Classification Project
 
 This project builds a supervised text classification dataset from CHILDES/CHAT
 bilingual child speech transcripts, trains scikit-learn classifiers, and serves
 the trained Random Forest model in a Gradio demo.
+
+## Assignment Links
+- [HF Classifier](https://huggingface.co/nimuezorro/bilingual_children_speech_classifier)
+- [HF Random Forest Demo](https://huggingface.co/spaces/nimuezorro/bilingual_children_speech_random_forest_demo)
+- [HF Dataset](https://huggingface.co/datasets/nimuezorro/bilingual_children_speech)
 
 ## Project Structure
 
@@ -39,11 +33,13 @@ working directory.
 ## Setup
 
 ```bash
-cd /Users/nimuezorman/Desktop/UPPSALA/INFO_R/IR_5LN712/assignment_1
+cd /IR_5LN712/assignment_1
 pip install -r requirements.txt
 ```
 
-## Build Dataset
+## Build Dataset 
+
+This is how I extracted the CHILDES transcripts into a functional dataset that includes only child utterances. The utterances themself were combined and turned into medium-length text chunks. Since the original data is a dialogue and contains lots of short utterances. 
 
 ```bash
 python scripts/build_childes_l1_dataset.py
@@ -62,7 +58,11 @@ The old wrapper still works:
 python build_childes_l1_dataset.py
 ```
 
+`data/processed/childes_l1_dataset_balanced.*` contains synthetically created data to balance the existing dataset
+
 ## Train Models
+
+Models use `data/processed/childes_l1_dataset_balanced.*` dataset by default.
 
 ```bash
 python scripts/train_childes_l1_models.py
@@ -70,7 +70,7 @@ python scripts/train_childes_l1_models.py
 
 Defaults:
 
-- input CSV: `data/processed/childes_l1_dataset.csv`
+- input CSV: `data/processed/childes_l1_dataset_balanced.csv`
 - trained models: `models/`
 - metrics and comparison reports: `reports/`
 - confusion matrices: `reports/figures/`
