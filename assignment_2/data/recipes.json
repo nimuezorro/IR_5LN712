@@ -1,0 +1,242 @@
+[
+  {
+    "title": "Tomato Pantry Pasta",
+    "ingredients": ["pasta", "canned tomatoes", "garlic", "olive oil", "chili flakes"],
+    "instructions": ["Boil pasta until al dente.", "Cook garlic in olive oil until fragrant.", "Add canned tomatoes and chili flakes, then simmer.", "Toss pasta with the sauce and season to taste."],
+    "dietary_tags": ["vegetarian", "quick"],
+    "cuisine": "Italian",
+    "prep_time": "20 minutes"
+  },
+  {
+    "title": "Chickpea Coconut Curry",
+    "ingredients": ["chickpeas", "coconut milk", "onion", "garlic", "curry powder", "rice"],
+    "instructions": ["Cook onion and garlic until soft.", "Add curry powder and stir for one minute.", "Add chickpeas and coconut milk, then simmer.", "Serve with cooked rice."],
+    "dietary_tags": ["vegan", "vegetarian", "dairy-free", "high-protein"],
+    "cuisine": "Indian-inspired",
+    "prep_time": "30 minutes"
+  },
+  {
+    "title": "Egg Fried Rice",
+    "ingredients": ["rice", "eggs", "soy sauce", "frozen peas", "spring onion"],
+    "instructions": ["Fry cooked rice in a hot pan.", "Push rice aside and scramble eggs.", "Add frozen peas and soy sauce.", "Finish with sliced spring onion."],
+    "dietary_tags": ["vegetarian", "quick", "high-protein"],
+    "cuisine": "Chinese-inspired",
+    "prep_time": "15 minutes"
+  },
+  {
+    "title": "Greek Chickpea Feta Salad",
+    "ingredients": ["chickpeas", "feta", "cucumber", "tomatoes", "olive oil", "lemon"],
+    "instructions": ["Rinse chickpeas.", "Chop cucumber and tomatoes.", "Toss chickpeas, vegetables, and feta with olive oil and lemon.", "Season and serve chilled."],
+    "dietary_tags": ["vegetarian", "no-cook", "quick", "high-protein"],
+    "cuisine": "Greek",
+    "prep_time": "10 minutes"
+  },
+  {
+    "title": "Lentil Tomato Soup",
+    "ingredients": ["red lentils", "canned tomatoes", "carrot", "onion", "vegetable stock"],
+    "instructions": ["Cook onion and carrot until softened.", "Add red lentils, canned tomatoes, and vegetable stock.", "Simmer until lentils are tender.", "Blend partly for a thicker soup."],
+    "dietary_tags": ["vegan", "vegetarian", "dairy-free", "high-protein"],
+    "cuisine": "Mediterranean",
+    "prep_time": "35 minutes"
+  },
+  {
+    "title": "Black Bean Breakfast Tacos",
+    "ingredients": ["tortillas", "black beans", "eggs", "salsa", "cheddar cheese", "cumin"],
+    "instructions": ["Warm black beans with cumin.", "Scramble eggs in a pan.", "Fill tortillas with beans, eggs, salsa, and cheddar cheese.", "Fold and serve warm."],
+    "dietary_tags": ["vegetarian", "breakfast", "high-protein", "quick"],
+    "cuisine": "Mexican-inspired",
+    "prep_time": "15 minutes"
+  },
+  {
+    "title": "Peanut Noodle Bowl",
+    "ingredients": ["noodles", "peanut butter", "soy sauce", "garlic", "lime", "frozen vegetables"],
+    "instructions": ["Cook noodles according to package directions.", "Whisk peanut butter, soy sauce, garlic, and lime juice.", "Steam frozen vegetables.", "Toss noodles and vegetables with peanut sauce."],
+    "dietary_tags": ["vegan", "vegetarian", "quick"],
+    "cuisine": "Thai-inspired",
+    "prep_time": "20 minutes"
+  },
+  {
+    "title": "White Bean Garlic Soup",
+    "ingredients": ["white beans", "garlic", "onion", "vegetable stock", "olive oil", "dried thyme"],
+    "instructions": ["Cook onion and garlic in olive oil.", "Add white beans, vegetable stock, and dried thyme.", "Simmer for 15 minutes.", "Mash some beans to thicken the soup."],
+    "dietary_tags": ["vegan", "vegetarian", "dairy-free", "high-protein"],
+    "cuisine": "French-inspired",
+    "prep_time": "25 minutes"
+  },
+  {
+    "title": "Tuna Rice Bowl",
+    "ingredients": ["rice", "canned tuna", "mayonnaise", "soy sauce", "cucumber", "sesame seeds"],
+    "instructions": ["Cook or reheat rice.", "Mix canned tuna with mayonnaise and soy sauce.", "Slice cucumber.", "Serve tuna over rice with cucumber and sesame seeds."],
+    "dietary_tags": ["quick", "high-protein"],
+    "cuisine": "Japanese-inspired",
+    "prep_time": "10 minutes"
+  },
+  {
+    "title": "Spinach Feta Omelette",
+    "ingredients": ["eggs", "spinach", "feta", "olive oil", "black pepper"],
+    "instructions": ["Wilt spinach in olive oil.", "Beat eggs with black pepper.", "Pour eggs into the pan and cook gently.", "Add feta, fold, and serve."],
+    "dietary_tags": ["vegetarian", "breakfast", "quick", "high-protein"],
+    "cuisine": "Greek-inspired",
+    "prep_time": "12 minutes"
+  },
+  {
+    "title": "Miso Mushroom Rice Soup",
+    "ingredients": ["rice", "mushrooms", "miso paste", "soy sauce", "spring onion", "vegetable stock"],
+    "instructions": ["Simmer mushrooms in vegetable stock.", "Add cooked rice and soy sauce.", "Turn off heat and stir in miso paste.", "Top with spring onion."],
+    "dietary_tags": ["vegan", "vegetarian", "dairy-free"],
+    "cuisine": "Japanese",
+    "prep_time": "20 minutes"
+  },
+  {
+    "title": "Red Lentil Dal",
+    "ingredients": ["red lentils", "onion", "garlic", "curry powder", "canned tomatoes", "rice"],
+    "instructions": ["Cook onion and garlic until soft.", "Add curry powder, red lentils, and canned tomatoes.", "Simmer with water until lentils break down.", "Serve with rice."],
+    "dietary_tags": ["vegan", "vegetarian", "dairy-free", "high-protein"],
+    "cuisine": "Indian",
+    "prep_time": "30 minutes"
+  },
+  {
+    "title": "Pesto White Bean Pasta",
+    "ingredients": ["pasta", "white beans", "pesto", "spinach", "parmesan cheese", "lemon"],
+    "instructions": ["Cook pasta until al dente.", "Warm white beans and spinach in a pan.", "Toss pasta with pesto and beans.", "Finish with parmesan cheese and lemon."],
+    "dietary_tags": ["vegetarian", "high-protein", "quick"],
+    "cuisine": "Italian",
+    "prep_time": "20 minutes"
+  },
+  {
+    "title": "Sweet Potato Black Bean Wraps",
+    "ingredients": ["tortillas", "sweet potato", "black beans", "cumin", "salsa", "lettuce"],
+    "instructions": ["Dice and roast or microwave sweet potato until tender.", "Warm black beans with cumin.", "Fill tortillas with sweet potato, beans, salsa, and lettuce.", "Wrap tightly and serve."],
+    "dietary_tags": ["vegan", "vegetarian", "dairy-free", "high-protein"],
+    "cuisine": "Mexican-inspired",
+    "prep_time": "25 minutes"
+  },
+  {
+    "title": "Turkey Bean Chili",
+    "ingredients": ["ground turkey", "kidney beans", "canned tomatoes", "onion", "chili powder", "corn"],
+    "instructions": ["Brown ground turkey with onion.", "Add chili powder and stir.", "Add kidney beans, canned tomatoes, and corn.", "Simmer until thick."],
+    "dietary_tags": ["high-protein"],
+    "cuisine": "American",
+    "prep_time": "35 minutes"
+  },
+  {
+    "title": "Shakshuka",
+    "ingredients": ["eggs", "canned tomatoes", "onion", "garlic", "paprika", "feta"],
+    "instructions": ["Cook onion and garlic until soft.", "Add canned tomatoes and paprika, then simmer.", "Make wells and crack in eggs.", "Cover until eggs are set and finish with feta."],
+    "dietary_tags": ["vegetarian", "breakfast", "high-protein"],
+    "cuisine": "Middle Eastern",
+    "prep_time": "30 minutes"
+  },
+  {
+    "title": "Oatmeal Banana Pancakes",
+    "ingredients": ["oats", "banana", "eggs", "milk", "baking powder", "cinnamon"],
+    "instructions": ["Blend oats, banana, eggs, milk, baking powder, and cinnamon.", "Heat a lightly oiled pan.", "Cook small pancakes until bubbles form.", "Flip and cook until golden."],
+    "dietary_tags": ["vegetarian", "breakfast", "high-protein"],
+    "cuisine": "American",
+    "prep_time": "20 minutes"
+  },
+  {
+    "title": "Kimchi Tofu Fried Rice",
+    "ingredients": ["rice", "tofu", "kimchi", "soy sauce", "sesame oil", "spring onion"],
+    "instructions": ["Crumble tofu and fry until lightly browned.", "Add kimchi and cooked rice.", "Season with soy sauce and sesame oil.", "Finish with spring onion."],
+    "dietary_tags": ["vegetarian", "quick", "high-protein"],
+    "cuisine": "Korean-inspired",
+    "prep_time": "15 minutes"
+  },
+  {
+    "title": "Moroccan Chickpea Couscous",
+    "ingredients": ["couscous", "chickpeas", "carrot", "raisins", "cumin", "vegetable stock"],
+    "instructions": ["Simmer carrot, chickpeas, cumin, and raisins in vegetable stock.", "Pour hot mixture over couscous.", "Cover until couscous is tender.", "Fluff and serve."],
+    "dietary_tags": ["vegan", "vegetarian", "dairy-free", "high-protein", "quick"],
+    "cuisine": "Moroccan-inspired",
+    "prep_time": "20 minutes"
+  },
+  {
+    "title": "Creamy Tomato Tortellini Soup",
+    "ingredients": ["tortellini", "canned tomatoes", "vegetable stock", "cream", "spinach", "garlic"],
+    "instructions": ["Simmer canned tomatoes, garlic, and vegetable stock.", "Add tortellini and cook until tender.", "Stir in cream and spinach.", "Season and serve warm."],
+    "dietary_tags": ["vegetarian"],
+    "cuisine": "Italian",
+    "prep_time": "25 minutes"
+  },
+  {
+    "title": "Hummus Veggie Wrap",
+    "ingredients": ["tortillas", "hummus", "cucumber", "carrot", "lettuce", "chickpeas"],
+    "instructions": ["Spread hummus over tortillas.", "Add cucumber, carrot, lettuce, and chickpeas.", "Roll tightly.", "Slice and serve."],
+    "dietary_tags": ["vegan", "vegetarian", "dairy-free", "no-cook", "quick"],
+    "cuisine": "Mediterranean",
+    "prep_time": "10 minutes"
+  },
+  {
+    "title": "Chicken Pesto Rice Skillet",
+    "ingredients": ["rice", "chicken breast", "pesto", "spinach", "cherry tomatoes", "olive oil"],
+    "instructions": ["Cook chicken breast pieces in olive oil.", "Add cooked rice and cherry tomatoes.", "Stir in pesto and spinach.", "Cook until spinach wilts."],
+    "dietary_tags": ["high-protein", "quick"],
+    "cuisine": "Italian-inspired",
+    "prep_time": "25 minutes"
+  },
+  {
+    "title": "Coconut Black Bean Soup",
+    "ingredients": ["black beans", "coconut milk", "onion", "garlic", "cumin", "lime"],
+    "instructions": ["Cook onion and garlic until soft.", "Add black beans, coconut milk, and cumin.", "Simmer for 15 minutes.", "Finish with lime juice."],
+    "dietary_tags": ["vegan", "vegetarian", "dairy-free", "high-protein"],
+    "cuisine": "Caribbean-inspired",
+    "prep_time": "25 minutes"
+  },
+  {
+    "title": "Caprese Pasta Salad",
+    "ingredients": ["pasta", "mozzarella", "tomatoes", "olive oil", "basil", "balsamic vinegar"],
+    "instructions": ["Cook pasta and cool under running water.", "Chop tomatoes and mozzarella.", "Toss pasta with tomatoes, mozzarella, olive oil, basil, and balsamic vinegar.", "Season and serve chilled."],
+    "dietary_tags": ["vegetarian", "quick"],
+    "cuisine": "Italian",
+    "prep_time": "20 minutes"
+  },
+  {
+    "title": "Savory Oatmeal with Egg",
+    "ingredients": ["oats", "eggs", "spinach", "soy sauce", "spring onion", "sesame oil"],
+    "instructions": ["Cook oats with water until creamy.", "Stir in spinach and soy sauce.", "Fry or poach eggs.", "Top oats with eggs, spring onion, and sesame oil."],
+    "dietary_tags": ["vegetarian", "breakfast", "high-protein", "quick"],
+    "cuisine": "Asian-inspired",
+    "prep_time": "15 minutes"
+  },
+  {
+    "title": "Quinoa Edamame Bowl",
+    "ingredients": ["quinoa", "edamame", "cucumber", "carrot", "soy sauce", "sesame seeds"],
+    "instructions": ["Cook quinoa until fluffy.", "Steam edamame.", "Slice cucumber and carrot.", "Serve quinoa with vegetables, edamame, soy sauce, and sesame seeds."],
+    "dietary_tags": ["vegan", "vegetarian", "dairy-free", "high-protein"],
+    "cuisine": "Japanese-inspired",
+    "prep_time": "25 minutes"
+  },
+  {
+    "title": "Sardine Tomato Pasta",
+    "ingredients": ["pasta", "canned sardines", "canned tomatoes", "garlic", "olive oil", "capers"],
+    "instructions": ["Cook pasta until al dente.", "Cook garlic in olive oil.", "Add canned tomatoes, canned sardines, and capers.", "Toss sauce with pasta."],
+    "dietary_tags": ["high-protein", "quick"],
+    "cuisine": "Italian-inspired",
+    "prep_time": "20 minutes"
+  },
+  {
+    "title": "Tofu Scramble Breakfast Wrap",
+    "ingredients": ["tortillas", "tofu", "turmeric", "black beans", "spinach", "salsa"],
+    "instructions": ["Crumble tofu and cook with turmeric.", "Add black beans and spinach.", "Warm tortillas.", "Fill tortillas with tofu scramble and salsa."],
+    "dietary_tags": ["vegan", "vegetarian", "breakfast", "dairy-free", "high-protein"],
+    "cuisine": "Mexican-inspired",
+    "prep_time": "20 minutes"
+  },
+  {
+    "title": "Minestrone with White Beans",
+    "ingredients": ["white beans", "pasta", "canned tomatoes", "carrot", "onion", "vegetable stock"],
+    "instructions": ["Cook onion and carrot until softened.", "Add canned tomatoes, vegetable stock, and white beans.", "Simmer for 15 minutes.", "Add pasta and cook until tender."],
+    "dietary_tags": ["vegan", "vegetarian", "dairy-free", "high-protein"],
+    "cuisine": "Italian",
+    "prep_time": "35 minutes"
+  },
+  {
+    "title": "Thai Basil Chicken Rice",
+    "ingredients": ["rice", "ground chicken", "garlic", "soy sauce", "basil", "chili flakes"],
+    "instructions": ["Cook ground chicken with garlic.", "Add soy sauce and chili flakes.", "Stir in basil until wilted.", "Serve over cooked rice."],
+    "dietary_tags": ["high-protein", "quick"],
+    "cuisine": "Thai-inspired",
+    "prep_time": "20 minutes"
+  }
+]

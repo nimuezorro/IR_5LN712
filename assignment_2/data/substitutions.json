@@ -1,0 +1,86 @@
+[
+  {
+    "ingredient": "heavy cream",
+    "substitutes": [
+      {
+        "name": "milk and butter",
+        "flavor_similarity": "high",
+        "cooking_use_notes": "Good for sauces and soups; it will not whip like heavy cream."
+      },
+      {
+        "name": "greek yogurt",
+        "flavor_similarity": "medium",
+        "cooking_use_notes": "Adds tang and thickness; stir in off heat to avoid curdling."
+      },
+      {
+        "name": "coconut milk",
+        "flavor_similarity": "medium",
+        "cooking_use_notes": "Works in curries and soups but adds coconut flavor."
+      }
+    ],
+    "cooking_use_notes": "Choose based on whether the dish needs richness, tang, or whipping."
+  },
+  {
+    "ingredient": "egg",
+    "substitutes": [
+      {
+        "name": "flax egg",
+        "flavor_similarity": "medium",
+        "cooking_use_notes": "Best for binding in baking; not suitable for scrambled eggs."
+      },
+      {
+        "name": "chia egg",
+        "flavor_similarity": "medium",
+        "cooking_use_notes": "Good binder with a slightly seedy texture."
+      },
+      {
+        "name": "mashed banana",
+        "flavor_similarity": "low",
+        "cooking_use_notes": "Adds sweetness and moisture in pancakes or muffins."
+      }
+    ],
+    "cooking_use_notes": "Best choice depends on whether the egg binds, leavens, or adds moisture."
+  },
+  {
+    "ingredient": "butter",
+    "substitutes": [
+      {
+        "name": "olive oil",
+        "flavor_similarity": "medium",
+        "cooking_use_notes": "Good for sauteing and savory dishes; use less than butter in baking."
+      },
+      {
+        "name": "coconut oil",
+        "flavor_similarity": "medium",
+        "cooking_use_notes": "Works for baking but can add coconut flavor."
+      },
+      {
+        "name": "margarine",
+        "flavor_similarity": "high",
+        "cooking_use_notes": "Closest texture for spreading and many baking uses."
+      }
+    ],
+    "cooking_use_notes": "Use oil for sauteing; use margarine for closer baking texture."
+  },
+  {
+    "ingredient": "coconut milk",
+    "substitutes": [
+      {
+        "name": "cream",
+        "flavor_similarity": "medium",
+        "cooking_use_notes": "Adds richness but removes coconut flavor and is not dairy-free."
+      },
+      {
+        "name": "evaporated milk",
+        "flavor_similarity": "medium",
+        "cooking_use_notes": "Good body for soups and sauces, but it is dairy-based."
+      },
+      {
+        "name": "oat cream",
+        "flavor_similarity": "medium",
+        "cooking_use_notes": "Keeps the dish dairy-free but is less coconut-flavored."
+      }
+    ],
+    "cooking_use_notes": "Pick a substitute based on whether dairy-free status or coconut flavor matters more."
+  }
+]
